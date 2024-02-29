@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(../Cv_Font/Raleway-VariableFont_wght.otf),url(../Cv_Font/Raleway-VariableFont_wght.ttf),url(../Cv_Font/Raleway-VariableFont_wght.woff),url(../Cv_Font/Raleway-Italic-VariableFont_wght.otf), url(../Cv_Font/Raleway-Italic-VariableFont_wght.ttf),url(../Cv_Font/Raleway-Italic-VariableFont_wght.woff);
+}
+:root {
+    --main_color: #782221;
+    --title_color: #dbc2a4;
+    --contact_color: #2c1d27;
+}
+
+body {
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Raleway Light', sans-serif;
+    color: white;
+    border-right : solid 0.2rem black ;
+    border-left: solid 0.2rem black;
+    
+}
+
+/* Debut du header */
+
+#begin_header {
+    text-align: center;
+    background-color: var(--main_color);
+    color: white;
+    font-family: Lato ;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+
+h1 {
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+#begin_header h2 {
+    font-size: 1.5rem;
+}
+
+#picture {
+    height: 15rem;
+    filter: drop-shadow(0 0 2rem black);
+    
+    
+}
+
+#picture:hover {
+    cursor: zoom-in;
+}
+
+#contact {
+    background-color: var(--contact_color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+#home {
+    margin-top: 0.6rem;
+    width: 10rem;
+    
+
+}
+
+address {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#mail {
+    
+    padding-right: 6rem;
+    padding-left: 1rem;
+
+
+}
+
+#contact a {
+    text-decoration: none;
+    color: white;
+}
+
+#home:hover,#mail:hover,#phone:hover {
+    text-decoration: underline;
+}
+
+
+/* Fin du Header */
+
+
+/* Debut du Main */
+
+main {
+    display: flex;
+}
+
+#a_propos {
+    
+    flex-direction: column;
+    width: 18rem;
+    background-color: var(--main_color);
+    padding-right: 3rem;
+
+}
+
+
+
+#lorem {
+    text-indent: 2rem;
+    text-align: justify;
+    padding-left: 1rem;
+    width: 15rem;
+}
+
+h3 {
+    background-color: var(--title_color);
+    width: 15rem;
+    padding: 0.4rem 0rem 0.4rem 1rem;
+    font-family: 'Lato' , sans-serif;
+    color: black;
+}
+
+#work {
+
+    color: black;
+    margin-left: 3rem;
+}
+
+
+.border:hover {
+border-right:0.5rem solid #782221;
+
+
+}
+    
+
+
+#work h3 {
+    border-left: solid 0.5rem var(--main_color);
+    padding-right: 30rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    
+}
+
+/* Debut du Footer */
+footer {
+    background-color: var(--main_color);
+    
+    
+    height: 5rem;
+    padding-top: 2rem;
+    align-items: center;
+    
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   
+}
+#footer img {
+    height: 2rem;
+    padding-left: 1rem;
+    
+    
+    
+    
+}
+#footer img:hover{
+    opacity: 0.5;
+}
+
+footer small {
+    display: flex;
+    justify-content: center;
+    font-size: 0.6rem;
+    padding-top: 0.6rem;
+}
+
+/* Fin du Footer */
